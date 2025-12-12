@@ -1,5 +1,5 @@
 import React from "react";
-import { useSteveStore } from "../../../stores/steveStore";
+import { useSteveStore } from "../steveStore";
 
 export default function CreateCampaignModal() {
   const { createModalOpen, createResult, closeCreateModal } = useSteveStore();

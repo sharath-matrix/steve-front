@@ -1,5 +1,5 @@
 import React from "react";
-import { useSteveStore } from "../../../stores/steveStore";
+import { useSteveStore } from "../steveStore";
 import ChatSidebarItem from "./ChatSidebarItem";
 
 export default function ChatSidebarRecent() {

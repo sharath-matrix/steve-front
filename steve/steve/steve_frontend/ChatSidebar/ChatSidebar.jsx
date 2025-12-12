@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useSteveStore } from "../../../stores/steveStore";
+import { useSteveStore } from "../steveStore";
 import { MoreHorizontal, Pin, Edit2, Trash2, ChevronLeft, PlusCircle, MessageSquare } from "lucide-react";
 
 export default function SteveChatSidebar() {

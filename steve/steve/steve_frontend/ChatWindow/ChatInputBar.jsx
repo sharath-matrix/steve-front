@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useSteveStore } from "../../../stores/steveStore";
+import { useSteveStore } from "../steveStore";
 
 export default function ChatInputBar() {
   const [text, setText] = useState("");

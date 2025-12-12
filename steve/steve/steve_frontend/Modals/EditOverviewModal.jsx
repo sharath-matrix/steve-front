@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useSteveStore } from "../../../stores/steveStore";
+import { useSteveStore } from "../steveStore";
 
 export default function EditOverviewModal() {
   const { editModalOpen, closeEditModal, editSnapshot, saveEditedSnapshot } = useSteveStore();

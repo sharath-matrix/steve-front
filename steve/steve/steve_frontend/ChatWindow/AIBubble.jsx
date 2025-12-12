@@ -1,5 +1,5 @@
 import React from "react";
-import { formatTime } from "../../../utils/time";
+import { formatTime } from "../utils/time";
 
 export default function AIBubble({ msg }) {
   const content = msg.content?.text || "";

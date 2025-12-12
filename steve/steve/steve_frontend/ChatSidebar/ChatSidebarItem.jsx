@@ -1,5 +1,5 @@
 import React from "react";
-import { useSteveStore } from "../../../stores/steveStore";
+import { useSteveStore } from "../steveStore";
 
 export default function ChatSidebarItem({ item }) {
   const select = useSteveStore((s) => s.selectConversation);

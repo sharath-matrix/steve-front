@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { supabase } from "../services/supabaseClient";
+import { supabase } from "./services/supabaseClient";
 
 // NOTE: Ensure Supabase has public bucket named "creative-assets"
 // or update uploadFile() path in store.

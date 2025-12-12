@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { useSteveStore } from "../../../stores/steveStore";
+import { useSteveStore } from "../steveStore";
 import UserBubble from "./UserBubble";
 import AIBubble from "./AIBubble";
 import FileBubble from "./FileBubble";
